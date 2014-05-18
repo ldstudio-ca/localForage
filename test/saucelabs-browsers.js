@@ -65,8 +65,8 @@ var SAUCELAB_BROWSERS = [
     {
         base: 'SauceLabs',
         browserName: 'safari',
-        version: '6',
-    }
+        version: '7',
+    },
 
     // {
     //     deviceName: 'Android',
