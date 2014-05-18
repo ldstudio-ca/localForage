@@ -61,7 +61,7 @@ var SAUCELAB_BROWSERS = [
         browserName: 'firefox',
         version: '28',
         platform: 'OS X 10.9'
-    }
+    },
 
     // {
     //     deviceName: 'Android',
