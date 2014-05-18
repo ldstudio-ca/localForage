@@ -61,12 +61,7 @@ var SAUCELAB_BROWSERS = [
         browserName: 'firefox',
         version: '28',
         platform: 'OS X 10.9'
-    },
-    {
-        base: 'SauceLabs',
-        browserName: 'safari',
-        version: '7',
-    },
+    }
 
     // {
     //     deviceName: 'Android',
@@ -89,30 +84,30 @@ var SAUCELAB_BROWSERS = [
     //     version: '4.3',
     // },
 
-    // {
-    //     base: 'SauceLabs',
-    //     deviceName: 'iPhone',
-    //     browserName: 'iphone',
-    //     version: '6.0',
-    // },
-    // {
-    //     base: 'SauceLabs',
-    //     deviceName: 'iPhone',
-    //     browserName: 'iphone',
-    //     version: '6.1',
-    // },
-    // {
-    //     base: 'SauceLabs',
-    //     deviceName: 'iPhone',
-    //     browserName: 'iphone',
-    //     version: '7.0',
-    // },
-    // {
-    //     base: 'SauceLabs',
-    //     deviceName: 'iPhone',
-    //     browserName: 'iphone',
-    //     version: '7.1'
-    // }
+    {
+        base: 'SauceLabs',
+        deviceName: 'iPhone',
+        browserName: 'iphone',
+        version: '6.0',
+    },
+    {
+        base: 'SauceLabs',
+        deviceName: 'iPhone',
+        browserName: 'iphone',
+        version: '6.1',
+    },
+    {
+        base: 'SauceLabs',
+        deviceName: 'iPhone',
+        browserName: 'iphone',
+        version: '7.0',
+    },
+    {
+        base: 'SauceLabs',
+        deviceName: 'iPhone',
+        browserName: 'iphone',
+        version: '7.1'
+    }
 ];
 
 module.exports = SAUCELAB_BROWSERS;
