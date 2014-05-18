@@ -65,8 +65,7 @@ var SAUCELAB_BROWSERS = [
     {
         base: 'SauceLabs',
         browserName: 'safari',
-        version: '7',
-        platform: 'OS X 10.9'
+        version: '6',
     },
 
     // {
